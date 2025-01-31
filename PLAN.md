@@ -20,3 +20,14 @@ Delete a diary entry
 
 
 CHECK CHAT CHARLIE (bottom left of VS CODE)!! <------------
+
+
+Database structure:
+
+DIARY TABLE:
+diary_id
+title
+content
+entry_date
+created_at
+

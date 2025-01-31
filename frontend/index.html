@@ -3,9 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Personal Diary</title>
+    <link rel="stylesheet" href="/frontend/style.css"> <!--Link here-->
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Personal Diary</h1>
+        <form id="diary-form">
+            <input type="text" id="title" placeholder="Title" required>
+            <textarea id="content" placeholder="Write your diary entry here..." required></textarea>
+            <input type="date" id="entry-date" required> <!--NEED TO EDIT IN SCRIPT TO UK-->
+            <button type="submit">Add Entry</button>
+        </form>
+        <div id="entries-container"></div>
+    </div>
+
+    <script src="/frontend/script.js"></script> <!-- Script here-->
 </body>
 </html>
