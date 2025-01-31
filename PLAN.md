@@ -19,3 +19,4 @@ Update the text of a diary entry
 Delete a diary entry
 
 
+CHECK CHAT CHARLIE (bottom left of VS CODE)!! <------------
