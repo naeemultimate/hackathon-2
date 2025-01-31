@@ -5,7 +5,7 @@ const db = new Pool({
     connectionString:process.env.DB_URL
 })
 
-db.connect()
+db.connect() //CONSOLE LOG TO CHECK CONNECTION
   .then(() => console.log("✅ Database connected successfully"))
   .catch(err => console.error("❌ Database connection error:", err));
 
