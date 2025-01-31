@@ -4,6 +4,11 @@
 
 This is a full-stack personal diary application that allows users to create, view, update, and delete personal diary entries.
 
+**Collaborators:**
+
+    - Naeem Shah
+    - Charlie Jackson
+
 - **Backend**: Node.js, Express, PostgreSQL
 - **Frontend**: HTML, CSS, JavaScript
 - **Database**: PostgreSQL (Hosted on Supabase)
