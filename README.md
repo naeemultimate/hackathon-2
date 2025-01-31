@@ -55,3 +55,8 @@ This is a full-stack personal diary application that allows users to create, vie
 | DELETE | `/diaryentries/:title`   | Delete a diary entry              |
 
 ---
+
+## Limitations/Bugs to fix
+- Need to connect working frontend to working backend
+- Develop a delete button form (targets title)
+- Develop an update button form (targets title & passes new content)
